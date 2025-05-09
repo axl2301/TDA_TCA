@@ -1024,6 +1024,18 @@ wheels = [
 ]
 
 [[package]]
+name = "pyinform"
+version = "0.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3f/04/333213a6e301b815bffd2f1694b8c8525acfc0ee42ae45ea99067aba40cc/pyinform-0.2.0.tar.gz", hash = "sha256:a29075e062acc64cbafd33431dda5357c6f03dfc4a000c57f322516d418299bb", size = 131896 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6d/4d/915887ddc6e5c46294575a36c7055a1a75b57a867d2f5841ecc942ff8e42/pyinform-0.2.0-py3-none-any.whl", hash = "sha256:03b9ae465d88038542e2570d5220ff9e7f21982c7000afa7276dc8c80d854fcd", size = 131198 },
+]
+
+[[package]]
 name = "pyparsing"
 version = "3.2.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1273,6 +1285,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pyinform" },
     { name = "scikit-learn" },
 ]
 
@@ -1284,6 +1297,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.3" },
     { name = "numpy", specifier = ">=2.2.5" },
     { name = "pandas", specifier = ">=2.2.3" },
+    { name = "pyinform", specifier = ">=0.2.0" },
     { name = "scikit-learn", specifier = ">=1.6.1" },
 ]
 
